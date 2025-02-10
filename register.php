@@ -8,7 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt = $pdo->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
     $stmt->execute([$username, $password]);
     
-    echo "<p>Registration successful. <a href='login.php'>Login here</a></p>";
+    echo "<script>alert('Registration successful'); window.location.href='login.php';</script>";
+    exit;
 }
 ?>
 
