@@ -6,6 +6,6 @@ if (!isset($_SESSION['username'])) {
 }
 ?>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <h1>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
-<a href="logout.php">Logout</a>
+<a href="../model/logout.php">Logout</a>
