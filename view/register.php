@@ -26,7 +26,7 @@ $(document).ready(function() {
             success: function(response) {
                 if (response.status === "success") {
                     alert(response.message);
-                    window.location.href = "login.php"; 
+                    window.location.href = "../view/login.php"; 
                 } else {
                     alert(response.message);
                 }
