@@ -11,8 +11,6 @@
 </form>
 <p class="footer">Already have an account? <a href="login.php" style="text-decoration: none;">Login here</a></p>
 
-
-
 <script>
 $(document).ready(function() {
     $("#registerform").submit(function(e) {
